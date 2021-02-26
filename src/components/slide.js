@@ -1,5 +1,4 @@
 
-import jbf from '../Images/jbf.png';
 import ana from '../Images/reii.png';
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
@@ -18,13 +17,9 @@ const Slideshow = () => {
 </div>
       <div className="slide-container">
       <Slide>
-          <div style={{height: "70vh",}} className="each-slide">
-              {" "}
-              <div className="slide-image" style={{backgroundImage: `url(${jbf})`,}}>
-              </div>
-          </div>
           <div style={{ height: "70vh",}} className="each-slide">
               <div className="slide-image" style={{backgroundImage: `url(${ana})`,}}>   
+     
               </div>
           </div>
       </Slide>
